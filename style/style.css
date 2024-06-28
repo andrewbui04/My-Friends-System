@@ -1,0 +1,235 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:#bacec1;
+}
+
+/*Index page*/
+header {
+  background-color:#c34f5a;
+  color: #fff;
+  padding: 10px 5rem;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex; 
+  justify-content: space-between; 
+}
+
+nav ul li {
+  display: inline-block; 
+  margin-right: 20px; 
+  border: 1px solid #c34f5a; 
+  padding: 8px 30px; 
+}
+
+nav ul li:hover {
+  background-color: #e17c04; 
+}
+
+nav ul li a {
+  text-decoration: none; 
+  color: #fff; 
+  font-weight:bolder; 
+  transition: color 0.3s ease;
+}
+
+nav ul li:hover a {
+  color: black;
+}
+
+
+.information {
+  background-color: #f0f0f0; 
+  border: 2px solid #ccc; 
+  padding: 50px; 
+  margin: 3rem 8rem; 
+  border-radius: 5px;
+}
+
+.header {
+  text-align: center; 
+  margin-top: 30px; 
+  color:#CC313D;
+}
+
+nav ul li.active {
+  background-color: #e17c04; 
+}
+
+nav ul li.active a {
+  color: black; 
+}
+
+/*------------------------------------------------------------------*/
+/*Sign up form + Log in form*/
+
+.Ta1 {
+  width: 45%;
+  padding: 20px;
+  border: 5px solid black; 
+  border-radius: 5px;
+  margin: 50px auto;
+  background-color:#967259;
+  box-shadow: 0px 10px 35px rgba(0, 0, 0.5, 1); 
+}
+.Ta1 label {
+  display: inline-block;
+  font-weight: bold;
+  margin-top: 8px;
+  width: 30%; 
+  text-align: left; 
+}
+
+/* Style form inputs */
+.Ta1 input[type="text"],
+.Ta1 select {
+  width: 50%; 
+  display: inline-block;
+  vertical-align:middle;
+  padding: 7px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.Ta1 input[type="submit"]
+{
+  background-color:#de0326;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.Ta1 input[type="submit"]:hover
+ {
+  background-color:white;
+  color:#de0326;
+}
+
+.clearButton{
+  background-color: #0096c7;
+  color: white;
+  padding: 5px 10px; 
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center; 
+  display: inline-block; 
+  line-height: 30px; 
+}
+
+.clearButton:hover
+ {
+  background-color:white;
+  color:#0096c7;
+}
+
+.Ta1 a {
+  display: block;
+  margin-top: 20px;
+  text-decoration: none;
+  color:beige;
+}
+
+.Ta1 a:hover {
+  text-decoration: underline;
+}
+
+table {
+  width: 54%;
+  border: 2px solid black;
+  margin: auto;
+  margin-bottom: 20px;
+}
+th, td {
+  border: 2px solid lightskyblue;
+  text-align: center;
+  padding: 8px;
+  color: #730000;
+}
+th {
+  background-color:#dfcaa0;
+}
+
+.unfriendButton{
+  background-color:#494948;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.unfriendButton:hover{
+  background-color:darkgray;
+  color:white;
+}
+
+.addfriendButton{
+  background-color:#0077b6;
+  color: snow;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.addfriendButton:hover{
+  background-color:lightblue;
+  color:grey;
+}
+
+.error-box {
+  background-color: #f8d7da;
+  color: blue;
+  padding: 8px;
+  border: 2px solid #f5c6cb;
+  border-radius: 5px;
+  margin-bottom: -150px;
+  width: 20%;
+}
+
+.error-box p{
+  color: red;
+}
+
+/*------------------------------------------------------------------*/
+/*Pagination*/
+.paginationFriend {
+  text-align: center; 
+}
+
+.nextButton {
+  background-color: #d05663; 
+  color: snow;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  margin-left: 600px;
+
+}
+.previousButton:hover, 
+.nextButton:hover{
+  background-color: #2a403d; 
+  color: snow;
+}
+
+.previousButton{
+  background-color: #d05663; 
+  color: snow;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  margin-right: 250px;
+}
